@@ -1,0 +1,8 @@
+server:
+  port: 8003
+  servlet:
+    context-path: /ecommerce-account-service
+
+spring:
+  application:
+    name: e-commerce-account-service

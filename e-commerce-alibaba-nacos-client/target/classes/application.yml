@@ -1,0 +1,38 @@
+server:
+  port: 1008
+  servlet:
+    context-path: /ecommer-nacos-client
+
+
+spring:
+  application:
+    name: e-commerce-nacos-client  #应用名称也是构成nacos配置管理 dataId字段的一部分
+  cloud:
+    nacos:
+      #服务注册发现
+      discovery:
+        enabled: true  #如果不想使用Nacos 进行服务注册与发现可以设置为false
+        server-addr: 127.0.0.1:8848
+        #   server-addr: 127.0.0.1:8848 ,127.0.0.1:8849, 127.0.0.1:8850   集群方式
+        namespace: 1bbeca75-ae44-4ffb-af59-c07494b3685e    # 命名空间ID
+        metadata:
+          management:
+            context-path: ${server.servlet.context-path}/actuator
+#          # 配置管理
+#          config:
+#            prefix: imooc-e-commerce
+#            file-extension: yaml  # 配置内容的数据格式, 默认为 properties
+#            enabled: true     # 如果不想使用 Nacos 进行配置管理, 设置为 false 即可
+#            group: DEFAULT_GROUP  # 组, 默认为 DEFAULT_GROUP
+#            namespace: 1bc13fd5-843b-4ac0-aa55-695c25bc0ac6
+#            server-addr: 127.0.0.1:8848
+
+#暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' #需要开放的端点。默认值只打开health 和info两端点。通过设置 * 可以开放所有端点
+  endpoint:
+    health:
+      show-details: always

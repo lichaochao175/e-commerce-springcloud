@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bd2353e-be8b-4ce8-b7e4-dacdde7885c2" name="Changes" comment="项目搭建" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Kotlin Class" />
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="chaochao.li &lt;1035508926@qq.com&gt;" />
+        <option value="lichaochao" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/apache-maven-3.8.3/repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.8.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.8.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="27dBZfGgZ3w1lp2SBgkp8STnihs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.42988506" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/e-commerce-stream-client/src/main/java/com/imooc/ecommerce/vo" />
+      <recent name="$PROJECT_DIR$/e-commerce-stream-client/src/main/java/com/imooc/ecommerce/qinyi" />
+      <recent name="$PROJECT_DIR$/e-commerce-stream-client/src/main/java/com/imooc/ecommerce/stream" />
+      <recent name="$PROJECT_DIR$/e-commerce-stream-client/src/main/java/com/imooc/ecommerce/partition" />
+      <recent name="$PROJECT_DIR$/e-commerce-stream-client/src/main/java/com/imooc/ecommerce/controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/e-commerce-service" />
+      <recent name="$PROJECT_DIR$/e-commerce-service/e-commerce-goods-service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.ecommerce.base" />
+      <recent name="com.imooc.ecommerce.service.impl" />
+      <recent name="com.imooc.ecommerce.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="AuthorityConstant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lcc.constant.AuthorityConstant" />
+      <module name="e-commerce-authority-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcc.constant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayConstant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lcc.constant.GatewayConstant" />
+      <module name="e-commerce-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcc.constant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcc.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorityCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-authority-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcc.AuthorityCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECommerceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.ecommerceservice.ECommerceServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECommerceServiceConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-service-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ecommerceserviceconfig.ECommerceServiceConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcc.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacoseClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-alibaba-nacos-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcc.NacoseClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AuthorityConstant" />
+      <item itemvalue="Application.GatewayConstant" />
+      <item itemvalue="Spring Boot.NacoseClientApplication" />
+      <item itemvalue="Spring Boot.ECommerceServiceApplication" />
+      <item itemvalue="Spring Boot.ECommerceServiceConfigApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.AuthorityCenterApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthorityCenterApplication" />
+        <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Application.GatewayConstant" />
+        <item itemvalue="Application.AuthorityConstant" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bd2353e-be8b-4ce8-b7e4-dacdde7885c2" name="Changes" comment="" />
+      <created>1649640139768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649640139768</updated>
+      <workItem from="1649640141151" duration="13172000" />
+      <workItem from="1649666635220" duration="13274000" />
+      <workItem from="1649692826157" duration="659000" />
+      <workItem from="1649724176108" duration="26353000" />
+      <workItem from="1649810425223" duration="25236000" />
+      <workItem from="1649858634833" duration="606000" />
+      <workItem from="1649899879474" duration="9655000" />
+      <workItem from="1650248437477" duration="10316000" />
+      <workItem from="1650968179034" duration="608000" />
+      <workItem from="1651037899269" duration="1113000" />
+      <workItem from="1651039305839" duration="17608000" />
+      <workItem from="1651101643565" duration="5848000" />
+      <workItem from="1651152320477" duration="4410000" />
+      <workItem from="1651458507165" duration="310000" />
+      <workItem from="1652928399837" duration="1823000" />
+      <workItem from="1653005879355" duration="1957000" />
+      <workItem from="1653029963412" duration="1974000" />
+      <workItem from="1653102101996" duration="603000" />
+      <workItem from="1653870720937" duration="2401000" />
+      <workItem from="1654182143606" duration="442000" />
+      <workItem from="1654182599507" duration="2805000" />
+      <workItem from="1654211510426" duration="8352000" />
+      <workItem from="1654330278057" duration="1234000" />
+      <workItem from="1654390541598" duration="4117000" />
+      <workItem from="1654472879553" duration="3904000" />
+      <workItem from="1654515991958" duration="2003000" />
+      <workItem from="1654558604185" duration="5936000" />
+      <workItem from="1654913383955" duration="10130000" />
+      <workItem from="1655105982608" duration="1310000" />
+      <workItem from="1655167703184" duration="14436000" />
+      <workItem from="1655354866089" duration="7145000" />
+      <workItem from="1655369439542" duration="268000" />
+      <workItem from="1655369728752" duration="623000" />
+      <workItem from="1655370367424" duration="40000" />
+      <workItem from="1655373808132" duration="27000" />
+      <workItem from="1655373848363" duration="576000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目搭建">
+      <created>1655369069567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655369069567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目搭建">
+      <created>1655369224426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655369224426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目搭建">
+      <created>1655374039867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655374039867</updated>
+    </task>
+    <task id="LOCAL-00004" summary="项目搭建">
+      <created>1655374060568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655374060568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="项目搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目搭建" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
