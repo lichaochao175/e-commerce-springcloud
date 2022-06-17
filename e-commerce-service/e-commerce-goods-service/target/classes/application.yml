@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: goods
+
+  server:
+    port: 7051
+  datasource:
+    url: jdbc:mysql://localhost:3306/cstate?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        #ncaos client 端口地址
+        server-addr: 127.0.0.1:8848
+    #        namespace: fe40f889-aa06-40e1-9051-36c20bd8d6f8
+
