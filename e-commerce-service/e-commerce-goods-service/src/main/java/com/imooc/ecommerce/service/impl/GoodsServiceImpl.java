@@ -13,11 +13,6 @@ import com.imooc.ecommerce.vo.PageSimpleGoodsInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.IterableUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -75,21 +70,21 @@ public class GoodsServiceImpl implements IGoodsService {
             page = 1;   // 默认是第一页
         }
 
-        // 这里分页的规则(你可以自由修改): 1页10调数据, 按照 id 倒序排列
-        Pageable pageable = PageRequest.of(
-                page - 1, 10, Sort.by("id").descending()
-        );
-        Page<EcommerceGoods> orderPage = null;
-//                ecommerceGoodsDao.findAll(pageable);
-
-        // 是否还有更多页: 总页数是否大于当前给定的页
-        boolean hasMore = orderPage.getTotalPages() > page;
-
-        return new PageSimpleGoodsInfo(
-                orderPage.getContent().stream()
-                        .map(EcommerceGoods::toSimple).collect(Collectors.toList()),
-                hasMore
-        );
+//        // 这里分页的规则(你可以自由修改): 1页10调数据, 按照 id 倒序排列
+//        Pageable pageable = PageRequest.of(
+//                page - 1, 10, Sort.by("id").descending()
+//        );
+//        Page<EcommerceGoods> orderPage = null;
+////                ecommerceGoodsDao.findAll(pageable);
+//
+//        // 是否还有更多页: 总页数是否大于当前给定的页
+//        boolean hasMore = orderPage.getTotalPages() > page;
+        return null;
+//        return new PageSimpleGoodsInfo(
+//                orderPage.getContent().stream()
+//                        .map(EcommerceGoods::toSimple).collect(Collectors.toList()),
+//                hasMore
+//        );
     }
 
     @Override
