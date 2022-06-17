@@ -11,6 +11,8 @@
         <module>e-commerce-serivce-sdk</module>
         <module>e-commerce-goods-service</module>
         <module>e-commerce-order-service</module>
+        <module>e-commerce-service-config</module>
+        <module>e-commerce-logistics-service</module>
     </modules>
     <parent>
         <artifactId>e-commerce-springcloud</artifactId>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>e-conmmerce-service-config</artifactId>
+    <artifactId>e-commerce-service-config</artifactId>
     <packaging>jar</packaging>
 
     <properties>
@@ -31,6 +31,5 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
         </dependency>
-
     </dependencies>
 </project>
