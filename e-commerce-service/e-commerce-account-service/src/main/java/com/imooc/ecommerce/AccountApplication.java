@@ -1,8 +1,10 @@
 package com.imooc.ecommerce;
 
+import com.imooc.ecommerce.cof.DataSourceProxyAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.Import;
 
 /**
  * @author lichaochao
@@ -11,6 +13,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @EnableDiscoveryClient
 @SpringBootApplication
+/**
+ *  不导入DataSourceProxyAutoConfiguration 则会报错
+ * Error creating bean with name 'jmxMBeanExporter' defined in class path resource
+ */
+@Import(DataSourceProxyAutoConfiguration.class)
 public class AccountApplication {
     public static void main(String[] args) {
         SpringApplication.run(AccountApplication.class, args);
