@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd2353e-be8b-4ce8-b7e4-dacdde7885c2" name="Changes" comment="项目搭建" />
+    <list default="true" id="5bd2353e-be8b-4ce8-b7e4-dacdde7885c2" name="Changes" comment="项目搭建">
+      <change beforePath="$PROJECT_DIR$/e-commerce-service/e-commerce-goods-service/src/main/java/com/imooc/ecommerce/vo/AsyncTaskInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce-service/e-commerce-goods-service/src/main/java/com/imooc/ecommerce/vo/AsyncTaskInfo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,5 +309,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="项目搭建" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
